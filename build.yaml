@@ -14,4 +14,4 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: romac_plus
+    shield: quack_macropad

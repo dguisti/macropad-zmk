@@ -1,0 +1,6 @@
+if SHIELD_QUACK_MACROPAD
+
+config ZMK_KEYBOARD_NAME
+    default "Quack Macropad"
+
+endif
