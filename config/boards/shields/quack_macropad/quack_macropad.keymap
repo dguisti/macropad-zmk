@@ -1,6 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+&default_encoder { status = "okay"; };
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -8,7 +10,7 @@
         default_layer {
             bindings = <
                 &kp N0 &kp N1 &kp N2
-                &kp N3 &kp N4 &kp N5
+                &kp C_PREV &kp C_PP &kp C_NEXT
                 &kp N6 &kp N7 &kp N8
             >;
             
